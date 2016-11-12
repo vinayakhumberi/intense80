@@ -1,0 +1,106 @@
+.main-header{
+    /*padding: 0;*/
+    background-color: #333333;
+}
+.navbar-inverse{
+    background-color: #333333;
+    border: none;
+    margin-bottom: 0px;
+}
+.call-number{
+    float: right;
+    font-size: 30px;
+    width: 50px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 30%;
+    height: 50px;
+    padding: 2.4%;
+    margin: 4px 10px;
+  }
+.pad-0{
+    padding: 0px;
+}
+.bottom-cta-section{
+    background-color: #fed149;
+    height: 150px;
+    padding: 5% 15%
+  }
+  .bottom-cta-section .bottom-cta-title{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #444444;
+    margin: 3px; 
+  }
+  .bottom-cta-section .bottom-cta-button{
+    background-color: #e0163c;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 4%;
+    margin-top: 5%;
+  }
+
+
+
+
+  /*Registration POPUP Start*/
+  #register-popup .modal-dialog{
+    margin: 0px; 
+  }
+  #register-popup .modal-content{
+    border-radius: 0px;
+    background-color: rgba(255,255,255,0.94);
+    height: 100%;  
+  }
+  #register-popup .modal-title{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #222222;
+  }
+  #register-popup .modal-title h5{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #666666;
+  }
+  #register-popup .modal-body{
+    padding: 25px;
+    background-color: #f8f8f8;
+  }
+  #register-popup .form-group input,#register-popup .form-group select{
+    border-radius: 0px;
+  }
+  #register-popup .form-group button{
+    background-color: #F44336;
+    color: #fff !important;
+    padding: 10px 23px;
+    font-size: 15px;
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+    margin: 13px 0;
+  }
+  #register-popup .err-msg{
+    font-size: 11px;
+    color: red;
+  }
+  /*Registration POPUP End*/

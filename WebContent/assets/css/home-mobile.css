@@ -1,0 +1,295 @@
+  .hp-jumbotron{
+    /*height: 500px;*/
+    background-color: #fed149;  
+  }
+  .hp-jumbotron .jumbotron{
+    background-color: #fed149;
+    border-radius: 0px;  
+  }
+  .hp-jumbotron .jumbotron .h1, .jumbotron h1{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 15px;
+  }
+  .hp-jumbotron .jumbotron p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #222222;
+  }
+  .hp-jumbotron .jumbotron ul{
+    list-style-image: url('http://avaskmtechnology.in/assets/images/check.png');
+  }
+  .hp-jumbotron .jumbotron a{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 10%;
+    background-color: #ff0000;
+    border: none;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: #222222;
+    padding: 15px;
+    text-decoration: none;
+   }
+  .hp-info-1,.hp-info-2,.hp-info-3,.hp-info-4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hp-info-1 .title,.hp-info-2 .title{
+    margin: 20px 4%;
+    margin-top: 40px;  
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #222222;
+  }
+  .hp-info-1 .content,.hp-info-2 .content{
+    margin: 0 4%;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #666666;
+  }
+  .hp-info-2{
+    background-color: #fafafa;
+  }
+  .hp-info-2 .content .info{
+
+  }
+  .hp-info-2 .content .info .i-title{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    text-align: left;
+    color: #000000;
+    margin: 10px 0; 
+  }
+  .hp-info-2 .content .info .i-content{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    text-align: left;
+    color: #444444;
+  }
+  .course-card{
+    background-color: #ffffff;
+    border: solid 1px #aaaaaa;
+    padding: 5%;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .course-card .card-title{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: -0.5px;
+    text-align: left;
+    text-decoration: underline;
+    color: #222222;
+  }
+  .course-card .card-content{
+    position: relative;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.4;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #666666;
+  }
+  .course-card .card-content span{
+    font-weight: 500;
+    color: #444444;
+  }
+  .course-card .card-content i{
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    color: #e63d3d;
+  }
+  .course-card .card-content i.disabled{
+    color: #ccc;
+  }
+  .course-card .card-content ul>li{
+    list-style: none;
+  }
+  .course-card .card-footer.red{
+    color: red;
+  }
+  .course-card .card-footer.blue{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #018e46;
+  }
+
+  .hp-info-3{
+         background-color: #dddddd;
+      }
+      .hp-info-3 .title{
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.09;
+        letter-spacing: -0.6px;
+        text-align: center;
+        color: #222222;
+      }
+      .hp-info-3 .content{
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        text-align: left;
+        color: #444444;
+        margin: 10px 5px;
+      }
+      .hp-info-3 .sub-title{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.22;
+        text-align: left;
+        color: #222222;
+        margin: 10px 0;
+      }
+      .hp-info-3 .footer button{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #ff0000;
+        width: 100%;
+        padding: 8px 20px;
+        margin: 10px 0;
+        border: none; 
+      }
+
+      .main-footer .green-text{
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.25;
+      letter-spacing: -0.4px;
+      text-align: left;
+      color: #00c45f;
+      margin: 10px 20px; 
+    }
+    .main-footer .cta button{
+      background-color: #ef4135;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.25;
+      letter-spacing: -0.4px;
+      text-align: center;
+      color: #ffffff;
+      padding: 8px 0;
+      width: 100%;
+      border: none;
+    }
+    .hp-info-4 .title{
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.09;
+      letter-spacing: -0.6px;
+      text-align: center;
+      color: #222222;
+      margin: 20px 4%;
+    }
+    .hp-info-4 .content{
+    }
+    .hp-info-4 .content .c-img img{
+      width: 100%;
+    }
+    .hp-info-4 .content .about-card{
+      margin: 30px 0;
+    }
+    .hp-info-4 .content .about-card .c-title{
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.11;
+      letter-spacing: -0.5px;
+      text-align: left;
+      color: #444444;
+      margin: 20px 0;
+    }
+    .hp-info-4 .content .about-card .c-content{
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.38;
+      letter-spacing: -0.4px;
+      text-align: left
+      margin: 20px 0;
+    }

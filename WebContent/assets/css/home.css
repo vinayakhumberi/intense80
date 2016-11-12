@@ -1,0 +1,411 @@
+      .main-section .jumbotron{
+        background-color: #fed149;
+        background: url('../img/bg.jpg');
+        border-radius: 0px;
+        padding: 5%;
+        margin-bottom: 0px;
+      }
+      .main-section .jumbotron h1{
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: -0.9px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .main-section .jumbotron .content{
+        font-family: Roboto;
+        font-size: 22px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.27;
+        text-align: left;
+        color: #ffffff;
+        padding: 5% 9%;
+      }
+      .main-section .jumbotron .content span{
+        font-weight: 500;
+      }
+      .main-section .jumbotron .cta button{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+        text-align: center;
+        color: #ffffff;
+        width: 361px;
+        height: 56px;
+        background-color: #f77d0e;
+        border: none;
+      }
+      .main-section .main-section-footer{
+          margin: 0 -15px;
+          background-color: #0d4a87;
+          color: #fff;
+          padding: 10px;
+      }
+      .main-section .main-section-footer .m-label{
+          font-size: 20px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.2;
+          text-align: left;
+          color: #fed149;
+          display: inline-block;
+          padding: 0 15px;
+      }
+      .main-section .main-section-footer .m-value{
+        display: inline-block;
+        text-decoration: underline;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        text-align: left;
+        color: #ffffff;
+        padding: 0 15px;
+      } 
+      .other-section{
+        margin: 5%;
+      }
+      .other-section button{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        text-align: center;
+        color: #ffffff;
+        background-color: #bbbbbb;
+        border: none;
+        padding: 1% 10%;
+        margin-top: 20px;
+      }
+      .other-section .title,.other-section-1 .title,.other-section-2 .title {
+		font-family: Roboto;
+		font-size: 24px;
+		font-weight: 500;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.25;
+		letter-spacing: -0.6px;
+		text-align: center;
+		color: #000000;
+	  } 
+      .other-section .content{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: -0.5px;
+        text-align: center;
+        color: #666666;
+        margin: 2% 0px;
+      }
+      .other-section-1{
+        padding: 5%;
+        background-color: #fafafa; 
+      }
+      .other-section-1 .bottom{
+        margin-top: 6%;
+      }
+
+  .course-card{
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    margin-bottom: 4%;
+  }
+  .course-card>div.row{
+    padding: 3%;
+  }
+  .course-card .card-title{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #222222;
+  }
+  .course-card .card-detail{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #666666;
+    margin: 2% 0;
+  }
+  .course-card .tag{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #e5aa03;
+  }
+  .course-card .card-info{
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.2;
+      letter-spacing: -0.4px;
+      text-align: left;
+      color: #888888;
+      margin: 3% 0;
+  }
+  .course-card .card-right{
+    text-align: right;
+  }
+  .course-card .c-price{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    color: #00c45f;
+  }
+  .course-card .c-label{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: -0.3px;
+    color: #888888;
+  }
+  .course-card .c-value{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    color: #444444;
+  }
+  .course-card .card-footer{
+    background-color: #fefceb;
+  }
+  .course-card .card-footer .b-title{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #888888;
+  }
+  .course-card .card-footer .b-sub-title{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #444444;
+    padding: 10px 0; 
+  }
+  .course-card .card-footer .b-sub-title span{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #00c45f;
+  }
+  .course-card .card-footer .b-content{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.14;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #666666;
+  }
+  .course-card .view-course-details{
+    border-top: 1px solid #eee; 
+  }
+  .course-card .view-course-details .register-demo{
+    border: none;
+    background-color: #f77d0e;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #fefefe;
+    margin: 10px 20px;
+    width: 411px;
+    height: 54px;
+  }
+  .course-card .view-course-details .view-course{
+    border: none;
+    background-color: #aaaaaa;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #000000;
+    margin: 10px 0px;
+    width: 282px;
+    height: 54px;
+  }
+  .other-section-1 .top{
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .other-section-1 .top .right{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #888888;
+  }
+  .other-section-2{
+    background-color: #dddddd;
+    padding: 5%;
+  }
+  .other-section-2 .content .top{
+    margin: 2% 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    text-align: left;
+    color: #444444;
+  }
+  .other-section-2 .bottom .left{
+    text-align: right;
+    padding: 0 8%;
+  }
+.other-section-2 .bottom .s-title{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  text-align: left;
+  color: #666666;
+  margin: 15px 0;
+}
+.other-section-2 .bottom .s-content{
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.41;
+  text-align: left;
+  color: #444444;
+}
+.other-section-2 .bottom .s-footer{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: #1367f1;
+  margin: 15px 0;
+}
+.other-section-2 .footer{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  color: #000000;
+}
+.other-section-2 .footer button{
+  background-color: #ef4135;
+  border: none;
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.other-section .part{ 
+        padding: 25px 20px;
+      }
+      .other-section .part .d-title{
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.22;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #222222;
+        margin: 20px 0;
+      }
+      .other-section .part .d-content{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.38;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #666666;
+      }

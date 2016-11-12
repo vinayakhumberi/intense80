@@ -1,0 +1,285 @@
+ /*Second header starts*/
+  .second-header{
+    margin-bottom: 0px;
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+  }
+  .second-header nav{
+    background-color: #fff;
+    z-index: 1020;
+  }
+  .second-header a.cta-demo-session{
+    background-color: #F44336;
+    color: #fff !important;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-size: 16px;
+  }
+  .second-header .navbar-nav>li>a{
+    color: #2196F3;
+    padding: 15px 40px;
+  }
+  .second-header .navbar{
+    margin-bottom: 0px;
+  }
+  /*Second header ends*/
+
+
+  .top-section{
+    background-color: #eee;
+  }
+  .top-section .crumbs span>i {
+    color: #F44336;
+    font-size: 9px;
+  }
+  .top-section .crumbs>span {
+    color: #F44336;
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  .top-section .crumbs li {
+    color: #F44336;
+    font-size: 15px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .top-section h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: #222;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  .top-section .main-content{
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .top-section .first-line{
+    font-size: 16px;
+    color: #444;
+    font-weight: 500;
+  }
+  .top-section .second-line{
+    color: #888;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .area-section{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd; 
+  }
+  .area-section .title{
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 700;
+    color: #222;
+  }
+  /*.area-section .content li{
+    color: #444;
+    font-size: 16px;
+    padding-bottom: 5px;
+    list-style-type: circle;
+  }*/
+  .area-section .content ul {
+  margin: 0;
+  }
+  .area-section .content ul.dashed {
+    list-style-type: none;
+  }
+  .area-section .content ul.dashed > li {
+    text-indent: -5px;
+  }
+  .area-section .content ul.dashed > li:before {
+    content: "-";
+    text-indent: -5px;
+  }
+  .area-section .content .h-title{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #444444;
+    margin: 10px 0; 
+  }
+  .area-section .content .h-content{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #444444;
+    margin: 10px 0;
+  }
+  .area-section .content{
+    padding-left: 30px;
+  }
+  .area-section .content .profile-img{
+    width: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 180px;
+  }
+  .area-section .content .profile-name{
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+  }
+  .area-section .content .profile-description{
+    color: #444;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .area-section .content .x-question{
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 0;
+  }
+  .area-section .content .x-answer{
+    color: #888;
+    font-size: 16px;
+    padding: 7px 0px;
+  }
+  i.glyphicon-record{
+    font-size: 10px;
+  }
+
+  .highlights{
+    border-bottom: 1px solid #ddd;
+    margin-top: 25px; 
+  }
+  .highlights .left{
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .highlights .right .x-title{
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 0;  
+  }
+  .highlights .right .x-content{
+    color: #888;
+    font-size: 16px;
+    padding: 7px 15px; 
+  }
+  .highlights .right li.x-rows{
+    color: #444;
+    padding-bottom: 10px;
+  }
+
+ .batch-card{
+              background-color: #fefceb;
+              padding: 25px 20px;
+            }
+            .batch-card .title{
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: 500;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.71;
+              letter-spacing: -0.3px;
+              text-align: left;
+              color: #888888;
+            }
+            .batch-card .sub-title{
+              font-family: Roboto;
+              font-size: 18px;
+              font-weight: bold;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.33;
+              letter-spacing: -0.5px;
+              text-align: left;
+              color: #444444;
+            }
+            .batch-card .sub-title span{
+              color: #00c45f;
+            }
+            .batch-card .b-content{
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: normal;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.14;
+              letter-spacing: -0.3px;
+              text-align: left;
+              color: #666666;
+            }
+            .batch-card .demo-session{
+              background-color: #e0163c;
+              border: none;
+              font-family: Roboto;
+              font-size: 16.5px;
+              font-weight: 500;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.33;
+              letter-spacing: -0.4px;
+              text-align: left;
+              color: #ffffff;
+              padding: 10px 40px;
+              margin-right: 20px; 
+            } 
+            .batch-card .talk-to-us{
+              background-color: #999999;
+              border: none;
+              font-family: Roboto;
+              font-size: 16.5px;
+              font-weight: 500;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.33;
+              letter-spacing: -0.5px;
+              text-align: center;
+              color: #ffffff;
+              padding: 10px 40px;
+              margin-right: 15px;
+              margin-top: 20px;
+            }
+
+
+  .courses .course-title{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444;
+  }
+  .courses .course-content li{
+    color: #666;
+  }
+
+  .courses .sub-courses{
+
+  }
+  .courses .sub-courses .sub-course-title{
+    text-decoration: underline;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  .courses .sub-courses .sub-course-content{
+    padding: 0px 10px;
+    color: #666;
+  }
+
+  .affix {
+      top: 0;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
