@@ -1,10 +1,11 @@
   .hp-jumbotron{
     /*height: 500px;*/
-    background-color: #fed149;  
+    background-color: #005c97;  
   }
   .hp-jumbotron .jumbotron{
-    background-color: #fed149;
+    background-color: #005c97;
     border-radius: 0px;  
+    color: #fff;
   }
   .hp-jumbotron .jumbotron .h1, .jumbotron h1{
     font-family: Roboto;
@@ -15,8 +16,8 @@
     line-height: 1.17;
     letter-spacing: -0.6px;
     text-align: left;
-    color: #222222;
     margin-bottom: 15px;
+    color: #fff;
   }
   .hp-jumbotron .jumbotron p{
     font-family: Roboto;
@@ -27,7 +28,7 @@
     line-height: 1.33;
     letter-spacing: -0.5px;
     text-align: left;
-    color: #222222;
+    color: #fff;
   }
   .hp-jumbotron .jumbotron ul{
     list-style-image: url('http://avaskmtechnology.in/assets/images/check.png');
@@ -37,7 +38,7 @@
     width: 100%;
     text-transform: uppercase;
     margin-top: 10%;
-    background-color: #ff0000;
+    background-color: #f77d0e;
     border: none;
     font-family: Roboto;
     font-size: 18px;
@@ -47,7 +48,7 @@
     line-height: 1.33;
     letter-spacing: -0.5px;
     text-align: center;
-    color: #222222;
+    color: #fff;
     padding: 15px;
     text-decoration: none;
    }
