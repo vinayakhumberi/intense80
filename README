@@ -1,0 +1,5 @@
+====================
+REST END POINTS
+====================
+CaptureLeads
+curl -d "CourseName=JavaProgramming&LeadName=Manas&LeadEmail=manas@gmail.com&LeadMobile=9887678787" http://localhost:8080/i80/CaptureLeads
