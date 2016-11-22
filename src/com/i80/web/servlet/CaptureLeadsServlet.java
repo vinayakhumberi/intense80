@@ -1,4 +1,4 @@
-package com.i80.leads;
+package com.i80.web.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -22,7 +22,7 @@ import com.i80.common.AppConstants;
  * Servlet implementation class CaptureLeads
  */
 @WebServlet("/CaptureLeads")
-public class CaptureLeads extends HttpServlet {
+public class CaptureLeadsServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
 	// JDBC driver name and database URL
@@ -36,7 +36,7 @@ public class CaptureLeads extends HttpServlet {
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public CaptureLeads() {
+    public CaptureLeadsServlet() {
         super();
     }
 

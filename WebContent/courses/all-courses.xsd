@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.intense80.com"
+xmlns="http://www.intense80.com" elementFormDefault="qualified" attributeFormDefault="unqualified">
+          <!-- XML Schema Generated from XML Document on Sat Nov 19 2016 13:29:29 GMT+0530 (IST) -->
+          <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+       <xs:element name="courses">
+          <xs:complexType>
+           <xs:sequence>
+            <xs:element name="course" maxOccurs="unbounded">
+               <xs:complexType>
+                  <xs:sequence>
+                         <xs:element name="course-name" type="xs:string"></xs:element>
+                         <xs:element name="short-description" type="xs:string"></xs:element>
+                         <xs:element name="duration" type="xs:string"></xs:element>
+                         <xs:element name="start-date" type="xs:string"></xs:element>
+                         <xs:element name="coursefee" type="xs:string"></xs:element>
+                         <xs:element name="classroom-location" type="xs:string"></xs:element>
+                         <xs:element name="placement-support-available" type="xs:string"></xs:element>
+                         <xs:element name="clickthrough-to-details" type="xs:string"></xs:element>
+                         <xs:element name="long-description" type="xs:string"></xs:element>
+                         <xs:element name="pre-registration-allowed" type="xs:string"></xs:element>
+                         <xs:element name="early-registration-fee"></xs:element>
+                         <xs:element name="tags">
+                            <xs:complexType>
+                                   <xs:sequence>
+                                          <xs:element name="tag" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                      </xs:sequence>
+                               </xs:complexType>
+                            </xs:element>
+                         <xs:element name="what-it-includes">
+                            <xs:complexType>
+                               <xs:sequence>
+                                  <xs:element name="core" type="xs:string"></xs:element>
+                                  <xs:element name="optional" type="xs:string"></xs:element>
+                                  <xs:element name="others" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                 </xs:sequence>
+                               </xs:complexType>
+                            </xs:element>
+                         <xs:element name="detailed-topics">
+                            <xs:complexType>
+                              <xs:sequence>
+                                     <xs:element name="topic" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                 </xs:sequence>
+                               </xs:complexType>
+                            </xs:element>
+                         <xs:element name="other-imp-details">
+                                <xs:complexType>
+                                       <xs:sequence>
+                                              <xs:element name="student-profiles">
+                                                     <xs:complexType>
+                                                            <xs:sequence>
+                                                                   <xs:element name="profile" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                               </xs:sequence>
+                                                        </xs:complexType>
+                                                 </xs:element>
+                                              <xs:element name="placement-features">
+                                                     <xs:complexType>
+                                                            <xs:sequence>
+                                                                   <xs:element name="feature" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                               </xs:sequence>
+                                                        </xs:complexType>
+                                                 </xs:element>
+                                          </xs:sequence>
+                                   </xs:complexType>
+                            </xs:element>
+                         <xs:element name="trainer">
+                                <xs:complexType>
+                                       <xs:sequence>
+                                              <xs:element name="name" type="xs:string"></xs:element>
+                                              <xs:element name="description" type="xs:string"></xs:element>
+                                          </xs:sequence>
+                                   </xs:complexType>
+                            </xs:element>
+                         <xs:element name="faqs">
+                                <xs:complexType>
+                                       <xs:sequence>
+                                              <xs:element name="faq" maxOccurs="unbounded">
+                                                     <xs:complexType>
+                                                            <xs:sequence>
+                                                                   <xs:element name="question" type="xs:string"></xs:element>
+                                                                   <xs:element name="answer" type="xs:string"></xs:element>
+                                                               </xs:sequence>
+                                                        </xs:complexType>
+                                                 </xs:element>
+                                          </xs:sequence>
+                                   </xs:complexType>
+                            </xs:element>
+                         <xs:element name="course-outline"></xs:element>
+                     </xs:sequence>
+                  </xs:complexType>
+               </xs:element>
+            </xs:sequence>
+         </xs:complexType>
+      </xs:element>
+   </xs:schema>

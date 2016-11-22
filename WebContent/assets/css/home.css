@@ -74,7 +74,7 @@
         text-align: left;
         color: #ffffff;
         padding: 0 15px;
-      } 
+      }
       .other-section{
         margin: 5%;
       }
@@ -102,7 +102,7 @@
 		letter-spacing: -0.6px;
 		text-align: center;
 		color: #000000;
-	  } 
+	  }
       .other-section .content{
         font-family: Roboto;
         font-size: 18px;
@@ -117,7 +117,7 @@
       }
       .other-section-1{
         padding: 5%;
-        background-color: #fafafa; 
+        background-color: #fafafa;
       }
       .other-section-1 .bottom{
         margin-top: 6%;
@@ -127,6 +127,8 @@
     background-color: #ffffff;
     border: solid 1px #cccccc;
     margin-bottom: 4%;
+    width: 85%;
+    margin: 0 auto;
   }
   .course-card>div.row{
     padding: 3%;
@@ -234,7 +236,7 @@
     letter-spacing: -0.5px;
     text-align: left;
     color: #444444;
-    padding: 10px 0; 
+    padding: 10px 0;
   }
   .course-card .card-footer .b-sub-title span{
     font-family: Roboto;
@@ -259,7 +261,7 @@
     color: #666666;
   }
   .course-card .view-course-details{
-    border-top: 1px solid #eee; 
+    border-top: 1px solid #eee;
   }
   .course-card .view-course-details .register-demo{
     border: none;
@@ -383,7 +385,7 @@
   margin-left: 30px;
   margin-top: 30px;
 }
-.other-section .part{ 
+.other-section .part{
         padding: 25px 20px;
       }
       .other-section .part .d-title{

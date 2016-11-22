@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courses xmlns="http://www.intense80.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.intense80.com all-courses.xsd">
+	<course>
+		<course-name>CompleteJava</course-name>
+		<short-description>Java Development Immersive with Java, SQL &amp; Web</short-description>
+		<duration>2.5 Months (80 Days)</duration>
+		<start-date>25 Nov 2016</start-date>
+		<coursefee>16,000</coursefee>
+		<classroom-location>Marathahalli, Bangalore</classroom-location>
+		<placement-support-available>Y</placement-support-available>
+		<clickthrough-to-details>Y</clickthrough-to-details>
+		<long-description>Our innovative courses are designed to help students, fresh/recent graduates get a software job by building pro. Our innovative courses are designed to help students, fresh/recent graduates get a software job by building pro.</long-description>
+		<pre-registration-allowed>N</pre-registration-allowed>
+		<early-registration-fee></early-registration-fee>
+		<tags>
+			<tag>Placement Focussed</tag>
+			<tag>Beginner Level</tag>
+			<tag>Mentor Guidance</tag>
+		</tags>
+		<what-it-includes>
+			<core>Java (Core + Advanced), SQL &amp; Web (HTML, CSS, JavaScript)</core>
+			<optional>Spring, Hibernate, AngularJS</optional>
+			<others>5 Foundation projects + 2 Major projects</others>
+			<others>Assignment, Quizzes, Group work &amp; Reviews</others>
+			<others>1:1 Mentoring &amp; Doubt Clearing Sessions</others>	
+			<others>6 Month access to online discussion and help forum</others>		
+		</what-it-includes>
+		<detailed-topics>
+			<topic>Core Java</topic>
+			<topic>Advanced Java (Servlet, JSP)</topic>
+			<topic>SQL &amp; JDBC</topic>
+			<topic>Web (HTML, CSS, JavaScript, JQuery)</topic>
+			<topic>Data Structure &amp; Algorithm (Optional)</topic>
+			<topic>Spring &amp; Hibernate (Optional)</topic>
+			<topic>AngularJS (Optional)</topic>
+		</detailed-topics>
+		<other-imp-details>
+			<student-profiles>
+				<profile>Professionals working in software, who want to change their stream to Java </profile>
+				<profile>Fresh/Recent graduates looking for a job in software</profile>
+				<profile>Students still in college looking to prepare for the software career and campus placement.</profile>
+			</student-profiles>
+			<placement-features>
+				<feature>Placement guidance</feature>
+				<feature>Placement-focussed quizzes</feature>
+				<feature>Mock Interviews</feature>
+				<feature>Personalized 1:1 feedback and mentoring</feature>
+				<feature>Placement-focussed quizzes</feature>
+				<feature>Mock Interviews</feature>
+			</placement-features>
+		</other-imp-details>
+		<trainer>
+			<name>Manas Panda</name>
+			<description>
+				Manas has more than 10 years of experience in software development and has worked with top companies like Wipro, Oracle, EMC &amp; Intuit. He has developed and led many project in both *Server Side programming* _(Java, Spring, Hibernate, SQL etc)_ and *front-end development* (Android, HTML/CSS/JQuery/AngularJS). 
+ 				
+				He is highly passionate about teaching programming to the beginners in the _right way_.
+			</description>
+		</trainer>
+		<faqs>
+			<faq>
+				<question>Where will be the classroom sections conducted?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What are the projects I will be doing?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What is the refund policy?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>How is this program different from other classroom programs?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>Is any pre-knowledge required to take this course?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What do I bring to the class? Anything I need to buy?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What do I get at the end of the course?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>When are the exams?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+		</faqs>
+		<course-outline>
+			
+		</course-outline>
+		
+	</course>
+	
+	<course>
+		<course-name>CoreJava</course-name>
+		<short-description>Core Java for Beginners</short-description>
+		<duration>2 Months (60 Days)</duration>
+		<start-date>25 Nov 2016</start-date>
+		<coursefee>11,000</coursefee>
+		<classroom-location>Marathahalli, Bangalore</classroom-location>
+		<placement-support-available>Y</placement-support-available>
+		<clickthrough-to-details>Y</clickthrough-to-details>
+		<long-description>Our innovative courses are designed to help students, fresh/recent graduates get a software job by building pro. Our innovative courses are designed to help students, fresh/recent graduates get a software job by building pro.</long-description>
+		<pre-registration-allowed>N</pre-registration-allowed>
+		<early-registration-fee></early-registration-fee>
+		<tags>
+			<tag>Placement Focussed</tag>
+			<tag>Beginner Level</tag>
+			<tag>Mentor Guidance</tag>
+		</tags>
+		<what-it-includes>
+			<core>Core Java, SQL, JDBC</core>
+			<optional></optional>
+			<others>5 Foundation projects + 2 Major projects</others>
+			<others>Assignment, Quizzes, Group work &amp; Reviews</others>
+			<others>1:1 Mentoring &amp; Doubt Clearing Sessions</others>	
+			<others>6 Month access to online discussion and help forum</others>				
+		</what-it-includes>
+		<detailed-topics>
+			<topic>Core Java</topic>
+			<topic>SQL &amp; JDBC</topic>
+			<topic>Data Structure &amp; Algorithm (Optional)</topic>
+		</detailed-topics>
+		<other-imp-details>
+			<student-profiles>
+				<profile>Professionals working in software, who want to change their stream to Java </profile>
+				<profile>Fresh/Recent graduates looking for a job in software</profile>
+				<profile>Students still in college looking to prepare for the software career and campus placement.</profile>
+			</student-profiles>
+			<placement-features>
+				<feature>Placement guidance</feature>
+				<feature>Placement-focussed quizzes</feature>
+				<feature>Mock Interviews</feature>
+				<feature>Personalized 1:1 feedback and mentoring</feature>
+				<feature>Placement-focussed quizzes</feature>
+				<feature>Mock Interviews</feature>
+			</placement-features>
+		</other-imp-details>
+		<trainer>
+			<name>Manas Panda</name>
+			<description>
+				Manas has more than 10 years of experience in software development and has worked with top companies like Wipro, Oracle, EMC &amp; Intuit. He has developed and led many project in both *Server Side programming* _(Java, Spring, Hibernate, SQL etc)_ and *front-end development* (Android, HTML/CSS/JQuery/AngularJS). 
+ 				
+				He is highly passionate about teaching programming to the beginners in the _right way_.
+			</description>
+		</trainer>
+		<faqs>
+			<faq>
+				<question>Where will be the classroom sections conducted?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What are the projects I will be doing?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What is the refund policy?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>How is this program different from other classroom programs?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>Is any pre-knowledge required to take this course?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What do I bring to the class? Anything I need to buy?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What do I get at the end of the course?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>When are the exams?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+		</faqs>
+		<course-outline>
+			
+		</course-outline>
+		
+	</course>
+	
+	
+	<course>
+		<course-name>Android</course-name>
+		<short-description>Android Programming for Beginners</short-description>
+		<duration>2 Months (60 Days)</duration>
+		<start-date>25 Dec 2016</start-date>
+		<coursefee>10,000</coursefee>
+		<classroom-location>Marathahalli, Bangalore</classroom-location>
+		<placement-support-available>Y</placement-support-available>
+		<clickthrough-to-details>N</clickthrough-to-details>
+		<long-description>Our innovative courses are designed to help students, fresh/recent graduates get a software job by building pro. Our innovative courses are designed to help students, fresh/recent graduates get a software job by building pro.</long-description>
+		<pre-registration-allowed>Y</pre-registration-allowed>
+		<early-registration-fee>8,000</early-registration-fee>
+		<tags>
+			<tag>Placement Focussed</tag>
+			<tag>Beginner Level</tag>
+			<tag>Mentor Guidance</tag>
+		</tags>
+		<what-it-includes>
+			<core>Android</core>
+			<optional>Core Java (Extra. Classes with Core Java Course)</optional>
+			<others>5 Foundation projects + 2 Major projects</others>
+			<others>Assignment, Quizzes, Group work &amp; Reviews</others>
+			<others>1:1 Mentoring &amp; Doubt Clearing Sessions</others>	
+			<others>6 Month access to online discussion and help forum</others>				
+		</what-it-includes>
+		<detailed-topics>
+			<topic>Core Java (Extra. Classes with Core Java Course)</topic>
+			<topic>Complete Android Programming</topic>
+		</detailed-topics>
+		<other-imp-details>
+			<student-profiles>
+				<profile>Professionals working in software, who want to change their stream to Java </profile>
+				<profile>Fresh/Recent graduates looking for a job in software</profile>
+				<profile>Students still in college looking to prepare for the software career and campus placement.</profile>
+			</student-profiles>
+			<placement-features>
+				<feature>Placement guidance</feature>
+				<feature>Placement-focussed quizzes</feature>
+				<feature>Mock Interviews</feature>
+				<feature>Personalized 1:1 feedback and mentoring</feature>
+				<feature>Placement-focussed quizzes</feature>
+				<feature>Mock Interviews</feature>
+			</placement-features>
+		</other-imp-details>
+		<trainer>
+			<name>Manas Panda</name>
+			<description>
+				Manas has more than 10 years of experience in software development and has worked with top companies like Wipro, Oracle, EMC &amp; Intuit. He has developed and led many project in both *Server Side programming* _(Java, Spring, Hibernate, SQL etc)_ and *front-end development* (Android, HTML/CSS/JQuery/AngularJS). 
+ 				
+				He is highly passionate about teaching programming to the beginners in the _right way_.
+			</description>
+		</trainer>
+		<faqs>
+			<faq>
+				<question>Where will be the classroom sections conducted?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What are the projects I will be doing?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What is the refund policy?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>How is this program different from other classroom programs?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>Is any pre-knowledge required to take this course?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What do I bring to the class? Anything I need to buy?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>What do I get at the end of the course?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+			<faq>
+				<question>When are the exams?</question>
+				<answer>We have several classrooms around the city. Based on student enrollments and convenience, we decide the right classroom for the batch.</answer>
+			</faq>
+		</faqs>
+		<course-outline>
+			
+		</course-outline>
+		
+	</course>
+
+
+
+</courses>
