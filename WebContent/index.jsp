@@ -39,7 +39,7 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 	<link rel="stylesheet" href="assets/css/common.css">
 	<div class="main-header">
 		<nav class="navbar navbar-inverse">
-			<div class="container-fluid pad-0">
+			<div class="top-nav-bar container-fluid pad-0">
 				<div class="navbar-header">
 					<a class="navbar-brand" href=""><img src="assets/img/logo.png"
 						alt=""></a>
@@ -58,8 +58,7 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 						<%} %>
 						</ul></li>
 					<li><a class="call-number" href="javascript:void(0)"
-						onclick="COMMON_FUNCTIONS.openContactUsDialog()"><i
-							class="glyphicon glyphicon-earphone"></i> +91 955945224</a></li>
+						onclick="COMMON_FUNCTIONS.openContactUsDialog()"><img src="assets/img/Phone-50.png" alt=""> +91 955945224</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -71,6 +70,25 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 	<section>
 		<div class="container-fluid main-section">
 			<div class="row jumbotron">
+				<div class="col-md-2"></div>
+				<div class="col-md-9 text-left">
+					<h1 style="padding: 0px;margin: 0px;text-align: left;">From beginner to fluent programmer in 80 days.</h1>
+					<h4 style="font-size:22px;font-weight: 300;color: #fff;">With placement support for freshers</h4>
+					<div class="content" style="padding-left:0px;text-align: left;margin-top: 30px;">
+						Yes, it can be done. And that's our mission. Our way of teaching
+						coding is <span>completely innovative. Highly Rigorous.
+							Practical. project-driven. placement-focussed </span>(for freshers)<span>.
+							We call it immersive learning. </span> All we need
+						from you is your commitment, a lot of it!
+	
+					</div>
+					<div class="cta">
+						<button id="main-cta">Browse All Courses</button>
+					</div>
+				</div>
+				<div class=col-md-1></div>
+			</div>
+			<!-- div class="row jumbotron">
 				<h1>From beginner to professional programmer in 80 days.</h1>
 				<div class="content">
 					Yes, it can be done. And that's our mission. Our way of teaching
@@ -83,7 +101,7 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 				<div class="cta text-center">
 					<button id="main-cta">Browse All Courses</button>
 				</div>
-			</div>
+			</div>  -->
 			<div class="main-section-footer">
 				<div class="container">
 					<div class="row">
@@ -103,42 +121,72 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 		</div>
 
 	</section>
-	<section>
-		<div class="container other-section">
-			<div class="title">Our Story & mission</div>
+	<section style="border-bottom: 1px solid #eee;">
+		<div class="container hp-second-section other-section" style="margin-left: 10%;margin-bottom: 2%;">
+			<div class="title">Intense80 is a revolutionary new way of learning programming. Here is why....</div>
 			<div class="content">
-				<div class="row">
-					<div class="col-md-4">&nbsp</div>
-					<div class="col-md-8 text-left">
-						<p>
-							Hi, I am Manas, Founder of Intense80. I have more than 10 years
-							of exp in the software industry and have worked for top MNCs like
-							Oracle, EMC, Intuit in various software development and
-							leadership roles. <br> <br> During these years, I have
-							interviewed, hired and mentored many people, both freshers and
-							professionals. And I have realized 2 things about the skill gap
-							that we face - - Freshers are good with theory but lack big time
-							when it comes to practical application - Experienced
-							professionals want to upgrade their skills, but don’t have the
-							right way to <br> <br> I started Intense80 to change
-							that. At Intense80, our goal is to teach programming in an
-							innovative, rigorous, project-oriented way, so that our students
-							can transform from beginner to professionals. That’s our mission
-							and anyone associated with us is extremely committed to that
-							mission.<br> <br> But there is no magic. It requires
-							hard work and commitment from our side as well from you. If you
-							are ready, read on...
-
-
-						</p>
-						<div>
-							<button>Read More About Our Innovative Way of Learning</button>
-						</div>
+				<div class="row inner-section">
+					<div class="col-md-6 text-left">
+						<div class="title">For freshers looking for job</div>
+						<div class="desc">Freshers struggle to find a job because they lack practical 
+						programming knowledge. And most of the ways of learning programming is theoritical 
+						in India. We at Intense80, train freshers in the most rigorous &amp; practical 
+						way so that you will not only have theoritical knowledge but 
+						also practical programming knowledge.</div>						
+					</div>
+					<div class="col-md-6 text-left">
+						<div class="title">For freshers looking for job</div>
+						<div class="desc">Freshers struggle to find a job because they lack practical 
+						programming knowledge. And most of the ways of learning programming is theoritical 
+						in India. We at Intense80, train freshers in the most rigorous &amp; practical 
+						way so that you will not only have theoritical knowledge but 
+						also practical programming knowledge.</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+		<div class="container hp-third-section other-section" style="margin-left: 10%;margin-bottom: 2%;">
+			<div class="title">Here are the typical things, that our students go through during a course</div>
+			<div class="content">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/img/course-list-100.png" alt="">
+					</div>
+					<div class="col-md-3 text-left">
+						<div class="desc">
+							<ul>
+								<li>Lectures by expert instructor</li>
+								<li>Online Assignments</li>
+								<li>Foundation projects (Generally 5)</li>
+								<li>Major Live Projects (Generally 2)</li>	
+							</ul>						   
+						</div>
+					</div>
+					<div class="col-md-5 text-left">
+						<div class="desc">
+							<ul style="list-style-type: square;">
+								<li>Hard core, intense, hands-on programming!</li>
+								<li>Quizzes, pre-session readings &amp; post-session reviews </li>
+								<li>1:1 doubt clearing & mentoring sessions</li>
+								<li><span style="color:#4caf50">And It requires your commitment. A lot of it!</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+				<div class="row leadCTA" style="margin-top: 40px;">
+					<div class="prompt-text">Ready to learn programming the right way?</div>
+					<button class="register-demo">Register for Demo Session</button>
+				</div>
+			</div>
+		</div>
+	<section>
+	
+	
+	</section>
+	
+	
 	<section id="other-section-1">
 		<div class="container-fluid other-section-1">
 			<div class="title">Upcoming Courses</div>
@@ -147,33 +195,44 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 					<div class="bottom">
 					<%for(Course course : coursesList){ %>
 						<div class="course-card">
-							<div class="row">
-								<div class="col-md-9 card-left">
+							<div class="row" style="">
+								<div class="col-md-8 card-left" style="padding:2%;">
 									<div class="card-title"><%=course.getShortDescription() %></div>
-									<div class="card-detail">Includes - Java (Core +
-										Advanced), SQL & Web (HTML, CSS, JavaScript)</div>
-									<div class="card-info">High Intensive 3 Month program
-										(100 hours classroom + 100 hours online) with best
-										instructors, Hands-on coding, Live projects and placement
-										focus.</div>
-									<div class="tag">With placement assistance for
-										students/fresh/recent graduates, who are looking for a job in
-										the software industry.</div>
+									<div class="card-info"><%=course.getLongDescription() %></div>
+									<div class="card-left-label card-detail" style="font-weight: 700;margin-">What's Covered:</div>	
+									<div class="course-leftbody-section">								
+										<%for(String whatsIncluded: course.getWhatItIncludesCoreList()) {%>
+											<div class="card-details"><span style="font-weight: 700">Core Part</span> - <%=whatsIncluded %></div>
+										<%} %>
+										<%for(String whatsIncluded: course.getWhatItIncludesOptionalList()) {%>
+											<div class="card-details"><span style="font-weight: 700">Optional Part</span> - <%=whatsIncluded %></div>
+										<%} %>
+										<span style="font-weight: 700">Learning Format</span>
+										<div class="LearningFormat">
+											<%for(String whatsIncluded: course.getWhatItIncludesOthersList()) {%>
+												<div class="card-details" style="padding-left: 30px;">- <%=whatsIncluded %></div>
+											<%} %>
+		
+											<%if(course.isPlacementSupportAvailable()){ %><div class="tag" style="padding-left: 30px;line-height: 1.6;">With placement assistance for freshers</div><%} %>
+										</div>
+									</div>
 								</div>
-								<div class="col-md-3  card-right">
-									<div>
+								<div class="col-md-1"></div>
+								<div class="col-md-3  card-right" style="padding:2%;">
+									
+									<div class="info-container-div" style="padding-top: 0px;">
 										<div class="c-label">Course Fees</div>
 										<div class="c-price">RS <%=course.getCoursefee() %></div>
 									</div>
-									<div>
+									<div class="info-container-div">
 										<div class="c-label">Batch Starts</div>
 										<div class="c-value"><%=course.getStartDate() %></div>
 									</div>
-									<div>
+									<div class="info-container-div">
 										<div class="c-label">Classroom Location</div>
 										<div class="c-value"><%=course.getClassroomLocation() %></div>
 									</div>
-									<div>
+									<div class="info-container-div" style="padding-bottom: 0px;border-bottom: none;">
 										<div class="c-label">Duration</div>
 										<div class="c-value"><%=course.getDuration() %> Days</div>
 									</div>
@@ -181,7 +240,7 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 							</div>
 							<div class="view-course-details text-right">
 								<%if(course.isClickthroughToDetails()) {%>
-								<button class="view-course">View Course Details</button>
+								<button class="view-course hidden">View Course Details</button>
 								<%} %>
 								<button class="register-demo">Register for Demo Session</button>
 							</div>
@@ -193,7 +252,7 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 			</div>
 		</div>
 	</section>
-	<section>
+	<!-- <section>
 		<div class="other-section-2">
 			<div class="container">
 				<div class="title">Here is how we teach programming</div>
@@ -235,7 +294,7 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>  -->
 	<section>
 		<div class="container other-section">
 			<div class="title">And here are some important details about
@@ -245,7 +304,7 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 					<div class="row">
 						<div class="col-md-6">
 							<div class="row">
-								<div class="col-md-3"></div>
+								<div class="col-md-3"><img src="assets/img/training-50.png" alt=""></div>
 								<div class="col-md-9">
 									<div class="d-title">Our instructors are experts, who
 										work with top companies. More importantly they are passionate
@@ -260,12 +319,10 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 						<div class="col-md-6">
 							<div class="row">
 								<div class="col-md-3">
-									<img src="" alt="">
+									<img src="assets/img/variable-50.png" alt="">
 								</div>
 								<div class="col-md-9">
-									<div class="d-title">Our instructors are experts, who
-										work with top companies. More importantly they are passionate
-										about teaching.</div>
+									<div class="d-title">Learn like a pro, using all professional tools and processes.</div>
 									<div class="d-content">We carefully choose expert
 										instructors at Intense80. All our instructors have at least
 										6-8 years of experience in their respective fields and work
@@ -280,11 +337,9 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 				<div class="row">
 					<div class="col-md-6">
 						<div class="row">
-							<div class="col-md-3"></div>
+							<div class="col-md-3"><img src="assets/img/placement-50.png" alt=""></div>
 							<div class="col-md-9">
-								<div class="d-title">Our instructors are experts, who work
-									with top companies. More importantly they are passionate about
-									teaching.</div>
+								<div class="d-title">We provide placement assistance for Job seekers</div>
 								<div class="d-content">We carefully choose expert
 									instructors at Intense80. All our instructors have at least 6-8
 									years of experience in their respective fields and work with
@@ -295,12 +350,10 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-3">
-								<img src="" alt="">
+								<img src="assets/img/technology-50.png" alt="">
 							</div>
 							<div class="col-md-9">
-								<div class="d-title">Our instructors are experts, who work
-									with top companies. More importantly they are passionate about
-									teaching.</div>
+								<div class="d-title">You will use our modern technology & collaboration platform</div>
 								<div class="d-content">We carefully choose expert
 									instructors at Intense80. All our instructors have at least 6-8
 									years of experience in their respective fields and work with
@@ -314,11 +367,9 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<div class="row">
-							<div class="col-md-3"></div>
+							<div class="col-md-3"><img src="assets/img/learning-50.png" alt=""></div>
 							<div class="col-md-9">
-								<div class="d-title">Our instructors are experts, who work
-									with top companies. More importantly they are passionate about
-									teaching.</div>
+								<div class="d-title">Keep learning even after the course ends</div>
 								<div class="d-content">We carefully choose expert
 									instructors at Intense80. All our instructors have at least 6-8
 									years of experience in their respective fields and work with

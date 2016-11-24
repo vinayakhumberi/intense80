@@ -5,7 +5,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.intense80.com all-courses.xsd">
 	<course>
 		<course-name>CompleteJava</course-name>
-		<short-description>Java Development Immersive with Java, SQL &amp; Web</short-description>
+		<short-description>Complete Java Development (Core + Advanced)</short-description>
 		<duration>2.5 Months (80 Days)</duration>
 		<start-date>25 Nov 2016</start-date>
 		<coursefee>16,000</coursefee>
@@ -119,7 +119,7 @@ xsi:schemaLocation="http://www.intense80.com all-courses.xsd">
 		</tags>
 		<what-it-includes>
 			<core>Core Java, SQL, JDBC</core>
-			<optional></optional>
+			<optional>None</optional>
 			<others>5 Foundation projects + 2 Major projects</others>
 			<others>Assignment, Quizzes, Group work &amp; Reviews</others>
 			<others>1:1 Mentoring &amp; Doubt Clearing Sessions</others>	
