@@ -1,11 +1,11 @@
-      body {
-          font-family: 'Roboto', sans-serif;
-          -webkit-font-smoothing: antialiased;
-          font-size: 14px;
-          font-weight: 400;
-      }
-      
-      /*Navbar related info*/
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*Navbar related info*/
       .top-nav-bar{
       	  padding-top: 20px;
       }
@@ -526,7 +526,7 @@
         #letter-spacing: -0.5px;
         text-align: left;
         color: #222222;
-        margin: 20px 0;
+        margin-bottom: 15px;
       }
       .other-section .part .d-content{
         font-family: Roboto;

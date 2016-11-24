@@ -213,7 +213,7 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 												<div class="card-details" style="padding-left: 30px;">- <%=whatsIncluded %></div>
 											<%} %>
 		
-											<%if(course.isPlacementSupportAvailable()){ %><div class="tag" style="padding-left: 30px;line-height: 1.6;">With placement assistance for freshers</div><%} %>
+											<%if(course.isPlacementSupportAvailable()){ %><div class="tag" style="padding-left: 30px;line-height: 1.6;"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;With placement assistance for freshers</div><%} %>
 										</div>
 									</div>
 								</div>
@@ -297,15 +297,15 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 	</section>  -->
 	<section>
 		<div class="container other-section">
-			<div class="title">And here are some important details about
+			<div class="title" style="margin-bottom: 40px;">And here are some important details about
 				our courses</div>
 			<div>
 				<div class="part">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="row">
-								<div class="col-md-3"><img src="assets/img/training-50.png" alt=""></div>
-								<div class="col-md-9">
+								<div class="col-md-2"><img src="assets/img/training-50.png" alt=""></div>
+								<div class="col-md-10">
 									<div class="d-title">Our instructors are experts, who
 										work with top companies. More importantly they are passionate
 										about teaching.</div>
@@ -318,10 +318,10 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 						</div>
 						<div class="col-md-6">
 							<div class="row">
-								<div class="col-md-3">
+								<div class="col-md-2">
 									<img src="assets/img/variable-50.png" alt="">
 								</div>
-								<div class="col-md-9">
+								<div class="col-md-10">
 									<div class="d-title">Learn like a pro, using all professional tools and processes.</div>
 									<div class="d-content">We carefully choose expert
 										instructors at Intense80. All our instructors have at least
@@ -337,8 +337,8 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 				<div class="row">
 					<div class="col-md-6">
 						<div class="row">
-							<div class="col-md-3"><img src="assets/img/placement-50.png" alt=""></div>
-							<div class="col-md-9">
+							<div class="col-md-2"><img src="assets/img/placement-50.png" alt=""></div>
+							<div class="col-md-10">
 								<div class="d-title">We provide placement assistance for Job seekers</div>
 								<div class="d-content">We carefully choose expert
 									instructors at Intense80. All our instructors have at least 6-8
@@ -349,10 +349,10 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 					</div>
 					<div class="col-md-6">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-2">
 								<img src="assets/img/technology-50.png" alt="">
 							</div>
-							<div class="col-md-9">
+							<div class="col-md-10">
 								<div class="d-title">You will use our modern technology & collaboration platform</div>
 								<div class="d-content">We carefully choose expert
 									instructors at Intense80. All our instructors have at least 6-8
@@ -367,8 +367,8 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<div class="row">
-							<div class="col-md-3"><img src="assets/img/learning-50.png" alt=""></div>
-							<div class="col-md-9">
+							<div class="col-md-2"><img src="assets/img/learning-50.png" alt=""></div>
+							<div class="col-md-10">
 								<div class="d-title">Keep learning even after the course ends</div>
 								<div class="d-content">We carefully choose expert
 									instructors at Intense80. All our instructors have at least 6-8

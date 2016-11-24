@@ -6,6 +6,8 @@
     background-color: #005c97;
     border-radius: 0px;  
     color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;	
   }
   .hp-jumbotron .jumbotron .h1, .jumbotron h1{
     font-family: Roboto;
@@ -30,9 +32,19 @@
     text-align: left;
     color: #fff;
   }
-  .hp-jumbotron .jumbotron ul{
-    list-style-image: url('http://avaskmtechnology.in/assets/images/check.png');
+  
+  .jumbo-desc{
   }
+  
+  .hp-jumbotron .jumbotron ul{
+    list-style-image: url('../img/check-50.png');
+  }
+  
+   .hp-jumbotron .jumbotron ul li{
+      font-size: 15px;
+      margin-bottom: 8px;
+  }
+  
   .hp-jumbotron .jumbotron a{
     display: block;
     width: 100%;
@@ -52,28 +64,59 @@
     padding: 15px;
     text-decoration: none;
    }
+   .main-section-footer .m-label {
+	    font-size: 16px;
+	    font-weight: bold;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.2;
+	    text-align: left;
+	    color: #fed149;
+	    display: inline-block;
+		padding-left: 10%;	    
+	}
+	.main-section-footer .m-value {
+	    display: inline-block;
+	    font-family: Roboto;
+	    font-size: 16px;
+	    font-weight: 500;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.33;
+	    text-align: left;
+	    color: #ffffff;
+	    padding: 0 15px;
+	}
+   
+   .main-section-footer {
+	    margin: 0 -15px;
+	    background-color: #0d4a87;
+	    color: #fff;
+	    padding: 10px;
+	}
+   
   .hp-info-1,.hp-info-2,.hp-info-3,.hp-info-4{
     padding-top: 20px;
     padding-bottom: 20px;
   }
   .hp-info-1 .title,.hp-info-2 .title{
     margin: 20px 4%;
-    margin-top: 40px;  
+    margin-top: 15px;  
     font-family: Roboto;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.33;
     letter-spacing: -0.5px;
-    text-align: left;
+    text-align: center;
     color: #222222;
   }
   .hp-info-1 .content,.hp-info-2 .content{
     margin: 0 4%;
     font-family: Roboto;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.2;
@@ -121,11 +164,11 @@
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2;
+    line-height: 1.2;
     letter-spacing: -0.5px;
     text-align: left;
     text-decoration: underline;
-    color: #222222;
+    color: #0d4a87;
   }
   .course-card .card-content{
     position: relative;
@@ -134,7 +177,7 @@
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 2.4;
+    line-height: 1.8;
     letter-spacing: -0.4px;
     text-align: left;
     color: #666666;
@@ -159,7 +202,7 @@
   .course-card .card-footer.red{
     color: red;
   }
-  .course-card .card-footer.blue{
+  .course-card .green{
     font-family: Roboto;
     font-size: 15px;
     font-weight: normal;
@@ -170,6 +213,23 @@
     text-align: left;
     color: #018e46;
   }
+  
+   .course-card .card-regfooter button{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.5;
+        letter-spacing: -0.4px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #f77d0e;
+        width: 100%;
+        padding: 8px 20px;
+        margin: 10px 0;
+        border: none; 
+      }
 
   .hp-info-3{
          background-color: #dddddd;
@@ -281,7 +341,7 @@
       letter-spacing: -0.5px;
       text-align: left;
       color: #444444;
-      margin: 20px 0;
+      margin: 10px 0;
     }
     .hp-info-4 .content .about-card .c-content{
       font-family: Roboto;
@@ -293,4 +353,5 @@
       letter-spacing: -0.4px;
       text-align: left
       margin: 20px 0;
+      color: #666
     }
