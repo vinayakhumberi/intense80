@@ -129,18 +129,14 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 					<div class="col-md-6 text-left">
 						<div class="title">For freshers looking for job</div>
 						<div class="desc">Freshers struggle to find a job because they lack practical 
-						programming knowledge. And most of the ways of learning programming is theoritical 
-						in India. We at Intense80, train freshers in the most rigorous &amp; practical 
-						way so that you will not only have theoritical knowledge but 
-						also practical programming knowledge.</div>						
+						programming knowledge. We at Intense80, train freshers in the most rigorous &amp; practical 
+						way so that you can master programming skills and also help you get placed with companies in our network.
+						But for that, you need to be committed and master the concepts and coding well and leave rest to us.</div>						
 					</div>
 					<div class="col-md-6 text-left">
-						<div class="title">For freshers looking for job</div>
-						<div class="desc">Freshers struggle to find a job because they lack practical 
-						programming knowledge. And most of the ways of learning programming is theoritical 
-						in India. We at Intense80, train freshers in the most rigorous &amp; practical 
-						way so that you will not only have theoritical knowledge but 
-						also practical programming knowledge.</div>
+						<div class="title">For professionals looking to learn new things.</div>
+						<div class="desc">At Intense80, you will master new skills in a rigorous and professional way, 
+						which you can use directly at your work or to switch streams. </div>
 					</div>
 				</div>
 			</div>
