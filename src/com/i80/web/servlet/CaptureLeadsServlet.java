@@ -25,31 +25,10 @@ import com.i80.common.AppConstants;
 public class CaptureLeadsServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	// JDBC driver name and database URL
-    static final String JDBC_DRIVER="com.mysql.jdbc.Driver";  
-    static final String DB_URL="jdbc:mysql://localhost/i80";
-    
-    //Database credentials
-    static final String USER = "root";
-    static final String PASS = "123456";
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public CaptureLeadsServlet() {
-        super();
-    }
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doPost(request, response);
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		  PreparedStatement stmt = null;
 		  Connection conn = null;
@@ -67,7 +46,7 @@ public class CaptureLeadsServlet extends HttpServlet {
 	          // Register JDBC driver
 	          Class.forName("com.mysql.jdbc.Driver");
 	          // Open a connection
-	          conn = DriverManager.getConnection(DB_URL, USER, PASS);
+	          conn = DriverManager.getConnection(AppConstants.DB_URL, AppConstants.USER, AppConstants.PASS);
 	          String sql;
 	          sql = "insert into Lead (courseName,leadName,leadEmail,leadMobile) values(?,?,?,?);";	          
 	          stmt = conn.prepareStatement(sql);

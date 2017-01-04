@@ -11,7 +11,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.XML;
 
-import com.i80.pojo.Course;
+import com.i80.pojo.DetailedCourse;
 import com.i80.pojo.FAQ;
 import com.i80.pojo.Trainer;
 
@@ -19,15 +19,15 @@ public class CourseUtil {
 	private static final int PRETTY_PRINT_INDENT_FACTOR = 4;
 	
 	//Gets a courses json and returns a course list
-	public static List<Course> allCoursesJsonToCourseList(JSONObject jsonCoursesObj) throws JSONException{
-		List<Course> courses = new ArrayList<Course>();
+	public static List<DetailedCourse> allCoursesJsonToCourseList(JSONObject jsonCoursesObj) throws JSONException{
+		List<DetailedCourse> courses = new ArrayList<DetailedCourse>();
         JSONObject coursesJson = (JSONObject) jsonCoursesObj.get("courses");
         JSONArray courseArray = coursesJson.getJSONArray("course");
         //System.out.println(courseArray.toString(PRETTY_PRINT_INDENT_FACTOR));
         for(int i = 0 ; i < courseArray.length() ; i++){
         	//unpack courses and start processing
         	JSONObject jsonCourseObj = courseArray.getJSONObject(i);//.getString(AppConstants.COURSE_COURSE_NAME));
-        	Course aCourse = new Course();
+        	DetailedCourse aCourse = new DetailedCourse();
         	aCourse.setCourseName(jsonCourseObj.getString(AppConstants.COURSE_COURSE_NAME));
         	aCourse.setShortDescription(jsonCourseObj.getString(AppConstants.COURSE_SHORT_DESCRIPTION));
         	//System.out.println(aCourse.getCourseName() + " " + aCourse.getShortDescription());

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@page import="com.i80.pojo.Course"%>
+<%@page import="com.i80.pojo.DetailedCourse"%>
 <%@page import="java.util.List"%>
 <html lang="en">
 <head>
@@ -27,9 +27,8 @@
 </head>
 
 <%
-//Get courses data
-List<Course> coursesList = (List<Course>) (request.getServletContext().getAttribute("AllCoursesList"));
-
+	//Get courses data
+List<DetailedCourse> coursesList = (List<DetailedCourse>) (request.getServletContext().getAttribute("AllCoursesList"));
 %>
 <body>
 <link rel="stylesheet" href="assets/css/common-mobile.css">
@@ -97,7 +96,9 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
         Upcoming Courses
       </div>
       <div class="content">
-      	<%for(Course course : coursesList){ %>
+      	<%
+      		for(DetailedCourse course : coursesList){
+      	%>
         <div class="course-card" onclick="COMMON_FUNCTIONS.navigateToTheUrl('<?= base_url() ?>course-java')">
            <div class="card-title">
              <%=course.getShortDescription() %>

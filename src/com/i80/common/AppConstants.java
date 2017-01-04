@@ -2,8 +2,13 @@ package com.i80.common;
 
 
 public class AppConstants {
-	public static final String RETCODE_SUCCESS = "success";
-	public static final String RETCODE_FAILED = "failed";
+	// JDBC driver name and database URL
+    public static final String JDBC_DRIVER="com.mysql.jdbc.Driver";  
+    public static final String DB_URL="jdbc:mysql://localhost/i80";
+    
+    //Database credentials
+    public static final String USER = "root";
+    public static final String PASS = "123456";
 	
 	//XML element strings from all-courses.xml
 	public static final String COURSE_COURSE_NAME = "course-name";
@@ -38,5 +43,10 @@ public class AppConstants {
 	public static final String COURSE_QUESTION = "question";
 	public static final String COURSE_ANSWER = "answer";
 	public static final String COURSE_COURSE_OUTLINE = "course-outline";
+	
+	//i80 lab
+	public static final String USER_HANDLE = "userHandle";
+	
+	public static final String AUTH_FAILED = "failed";
 	
 }

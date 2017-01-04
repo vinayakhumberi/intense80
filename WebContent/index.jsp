@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<%@page import="com.i80.pojo.Course"%>
+<%@page import="com.i80.pojo.DetailedCourse"%>
 <%@page import="java.util.List"%>
 <%@page import="com.i80.web.*"%>
 <html lang="en">
@@ -28,10 +28,8 @@
 </head>
 
 <%
-//Get courses data
-List<Course> coursesList = (List<Course>) (request.getServletContext().getAttribute("AllCoursesList"));
-
-
+	//Get courses data
+List<DetailedCourse> coursesList = (List<DetailedCourse>) (request.getServletContext().getAttribute("AllCoursesList"));
 %>
 
 <body>
@@ -50,12 +48,16 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 							Courses <span class="caret"></span>
 					</a>
 						<ul class="dropdown-menu">
-						<%for(Course course : coursesList){ %>
+						<%
+							for(DetailedCourse course : coursesList){
+						%>
 							<li><a href="<?=  base_url()?>course-java">
-									<div class="nav-title"><%=course.getShortDescription() %></div>
-									<div class="nav-sub-title-blue">Class starts&nbsp;&nbsp;<%=course.getStartDate() %></div>
+									<div class="nav-title"><%=course.getShortDescription()%></div>
+									<div class="nav-sub-title-blue">Class starts&nbsp;&nbsp;<%=course.getStartDate()%></div>
 							</a></li>
-						<%} %>
+						<%
+							}
+						%>
 						</ul></li>
 					<li><a class="call-number" href="javascript:void(0)"
 						onclick="COMMON_FUNCTIONS.openContactUsDialog()"><img src="assets/img/Phone-50.png" alt=""> +91 955945224</a></li>
@@ -189,7 +191,9 @@ List<Course> coursesList = (List<Course>) (request.getServletContext().getAttrib
 			<div class="content">
 				<div class="container">
 					<div class="bottom">
-					<%for(Course course : coursesList){ %>
+					<%
+						for(DetailedCourse course : coursesList){
+					%>
 						<div class="course-card">
 							<div class="row" style="">
 								<div class="col-md-8 card-left" style="padding:2%;">

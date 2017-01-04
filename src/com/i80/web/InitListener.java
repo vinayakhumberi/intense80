@@ -14,7 +14,7 @@ import org.json.JSONObject;
 import org.json.XML;
 
 import com.i80.common.CourseUtil;
-import com.i80.pojo.Course;
+import com.i80.pojo.DetailedCourse;
 
 /**
  * Application Lifecycle Listener implementation class InitListener
@@ -65,7 +65,7 @@ public class InitListener implements ServletContextListener {
         arg0.getServletContext().setAttribute("CoursesJson", jsonCourseObj);
         
         //Create course array for consumption by backend
-        List<Course> courseList = null;
+        List<DetailedCourse> courseList = null;
         try {
 			courseList = CourseUtil.allCoursesJsonToCourseList(jsonCourseObj);
 		} catch (JSONException e) {
